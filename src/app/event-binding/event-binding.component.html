@@ -1,0 +1,9 @@
+<h3>
+  event-binding 
+</h3>
+<hr style="border-top: 5px double #8c8b8b;" >
+<div style="margin-bottom: 5px;" >{{ eventCounter }}</div>
+<button class="btn btn-primary" (click)="onClickButton()" >Click Me!</button>
+
+<input type="text" style="margin-top: 5px;" class="form-control" (input)="onTextChange($event)" />
+<div>event parmeter value is {{ eValue }}</div>

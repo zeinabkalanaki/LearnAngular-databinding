@@ -1,0 +1,12 @@
+<h3>
+  two-way-databinding 
+</h3>
+<h5>= string-interpolation or property-binding + event-binding</h5>
+<hr style="border-top: 5px double #8c8b8b;">
+<div style="font-weight: bold; margin :5px">
+  Need import ngular/forms
+</div>
+<input type="text" class="form-control" [(ngModel)]="currentText"  />
+<div>currentText is {{currentText}}</div>
+<br />
+<button class="btn btn-primary" (click)="onClickButton()" >Reset Valur!</button>
